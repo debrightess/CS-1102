@@ -1,0 +1,62 @@
+Explain what is meant by the syntax and the semantics of a programming language. 
+Give Java examples to illustrate the difference between a syntax error and a semantics error. Use different examples than those found in the textbook. 
+
+Your Discussion should be at least 250 words in length, but not more than 750 words. 
+Once you’ve completed your initial post, be sure to respond to the posts of at least 3 of your classmates
+
+
+The syntax of a programming language describes which strings of characters comprises a valid program. It refers to the rules and regulations for writting any statement in a programming language. 
+It does not have to do anything with the meaning of the statement.
+A statement is syntactically valid if it follows all the rules. 
+It is related to the grammer and structure of the language. 
+
+Semantics refers to the meaning associated with the staement in a programming language. 
+It is all about meaning of the statement which interprets the program easily. 
+Errors are handled at runtime
+
+Examples of syntax errors include:
+
+1. ';' expected
+
+public class Main {
+	
+	public static void main(String[] args) {
+		System.out.println("My name is Rafael")
+	}
+}
+
+
+
+2. Incompatible types 
+
+public class Main {
+	
+	public static void main(String[] args) {
+		String name = "Odun Smith"
+		int a = 5.5
+		
+		System.out.println("Your name is " + name)
+	}
+}
+
+Examples of Semantic errors include
+
+public class TotalProfit {
+
+	public static void main(String[] args) {
+
+		int amount1 = 250; 
+        	int amount2 = 400;
+
+        	System.out.println("The total profit is  $" + (amount1 * amount2));
+
+	}
+
+}
+
+# This program will output The total profit is $100000. This is incorrect; the expected output is $650. 
+This happens because we use a multiply (*) sign instead of an addition (+) sign.
+
+
+
+

@@ -1,0 +1,136 @@
+//Give an example of a while loop, 
+
+public class test2 {
+    public static void main(String[] args){
+        int loanAmount = 100;
+        int payment = 10;
+        int iteration = 0;
+
+        while (loanAmount > 10){
+            loanAmount = loanAmount - payment;
+            iteration ++;
+        }
+        System.out.println("Times Paid: " + iteration );
+
+    }
+}
+
+//then provide the equivalent do-while loop and for loop.  
+
+public class test2 {
+    public static void main(String[] args){
+        int loanAmount = 100;
+        int payment = 10;
+        int iteration = 0;
+
+        do {
+            loanAmount = loanAmount - payment;
+            iteration ++;
+        }
+        while (loanAmount > 10);
+        System.out.println("Times Paid: " + iteration );
+        
+    }
+}
+
+
+//Then give a different example of a do-while loop, 
+
+public class test2 {
+    public static void main(String[] args){
+
+        int number = 0;
+        do {
+            System.out.println(number);
+            number++;
+        }
+        while (number < 5);
+    }
+}
+
+
+//along with the equivalent while loop 
+
+public class test2 {
+    public static void main(String[] args){
+        int number = 0;
+        while (number < 5) {
+            System.out.println(number);
+            number++;
+        }
+    }
+}
+
+
+//and for loop. 
+
+public class test2 {
+    public static void main(String[] args){
+        for (int number = 0; number < 5; number++) {
+            System.out.println(number);
+        }
+    }
+}
+
+
+
+//Finally, give an example of a for loop, 
+
+public class test2 {
+    public static void main(String[] args){
+        for (int times = 0; times < 5; times++) {
+            String message = "Today is a great day";
+            System.out.println(message);
+        }
+    }
+}
+
+//along with the equivalent while loop
+
+public class test2 {
+    public static void main(String[] args){
+
+        int times = 0;
+        while (times < 5){
+            String message = "Today is a great day";
+            System.out.println(message);
+            times++;
+        }
+
+    }
+}
+
+//and do-while loop. 
+
+public class test2 {
+    public static void main(String[] args){
+
+        int times = 0;
+        do{
+            String message = "Today is a great day";
+            System.out.println(message);
+            times ++;
+        }
+        while (times < 5);        
+
+    }
+}
+
+
+Use your examples to illustrate the advantages and disadvantages of each looping structure, and describe those advantages and disadvantages.
+
+for loop:
+Initialization can either be in loop statement or outside the loop.
+It is best used when the number of iterations is known.
+A for statement provides a shorter, simpler to debug looping structure.
+
+while loop:
+Initialization is always outside the loop.
+It is works best for complex initialization.
+
+do while loop:
+it checks for the condition after executing the statements.
+Statement(s) is executed atleast once, thereafter condition is checked.
+
+
+
