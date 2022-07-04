@@ -1,0 +1,17 @@
+Unit 3: Static Methods and Member Variables
+
+Topics:
+
+    Black-Box Interfaces
+    Defining Static Methods
+    Calling Static Methods
+    Using Static Member Variables
+
+Learning Objectives:
+
+By the end of this Unit, you will be able to:
+
+    Describe the difference between formal parameters and actual parameters.
+    Define and call static methods in Java programs.
+    Apply static member variables in Java programs.
+

@@ -1,0 +1,27 @@
+Discuss the concept of parameters. What are parameters for? What is the difference between formal parameters and actual parameters? Give an example in Java code that illustrates formal parameters and actual parameters.
+
+Your Discussion should be at least 250 words in length, but not more than 750 words. Once you’ve completed your initial post, be sure to respond to the posts of at least 3 of your classmates.
+
+
+Parameters are part of the interface of a subroutine. They allow you to customize the behavior of a subrouutine to adapt it to a particular situation (javanotes). It is data passed into a method to be used by the method's internal computations. They are used to customize the behaviour of a method to enable it adapt to a particular situation. 
+It is a variable used to define a particular value during a subroutine definition. Everytime we call a subroutine is defined in Java, the compiler is introduced to some compiler with some variables that are being used in running of that subroutine. 
+
+Parameters are used to refer to two distinct but related concepts depending on the usage, it is referred to as formal/dummy parameter of actual parameter. There are parameters that are used in the definition of subroutines, and there are parameters that are used in subroutine call statements. A formal parameter is a simple identifier, the name, and the actual parameter the value (of the same type as the identifier).  whereas parameters that are passed into a subroutine when it is called is  referred to as an actual parameter or argument
+
+
+public class test2 {
+    static int sum(int num1, int num2) { //num1 and num2 here are formal parameters 
+        return num1 + num2;
+    }
+
+    public static void main(String[] args) {
+        int valueA= 120, valueB=200;  //valueA and ValueB here are actual parameters 
+        int summation=sum(valueA,valueB);
+        System.out.println("The sum of "+ valueA +" and "+valueB+ " is " +summation );
+    }
+}
+
+In the example, the formal parameters are num1 and num1. They are like variables has a specified type, which in this case is int. The actual parameter in the example is valueA and ValueB. They are the parameters passed passed to the subroutine when it is called.
+
+Reference:
+David, J.E. (2022). Introduction to Programming Using Java. Version 9, JavaFX Edition.  
