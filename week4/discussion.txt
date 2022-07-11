@@ -1,0 +1,92 @@
+Give an example of a class and an example of an object. Describe what a class is, what an object is, and how they are related. 
+Use your examples to illustrate the descriptions.
+
+Your Discussion should be at least 250 words in length, but not more than 750 words. 
+Once you’ve completed your initial post, be sure to respond to the posts of at least 3 of your classmates.
+
+
+
+A class is a kind of factory or blueprint for constructing objects. The non-static parts of the class specify, or describe, what variables and methods the objects will contain. Classes define states as instance variables and behaviors as instance methods. Instance variables are also known as member variables. 
+
+
+An object is an entity that has states and behaviors. state tells us how the object looks or what properties it has, while behaviour tells us what the object does. 
+An object that is created from a class is called an instance of that class. Software objects are the actual representation of real world objects. Memory is allocated in RAM whenever creating a logical object. 
+
+Here is a class example that represents states and behaviors of a real world dog. 
+
+public class Dog {
+    /*
+    Instance variables: states of Dog
+     */
+    String name;
+    int age;
+    String color;
+    String breed;
+
+    /*
+    Instance methods: behaviors of Dog
+     */
+    void bark(){
+        System.out.println("Barking");
+    }
+    void play(){
+        System.out.println("Playing");
+    }
+    void feed(){
+        System.out.println("Eating");
+    }
+
+}
+
+After defining the dog template, lets say we have two dogs Brave and Sheriff. We first need to create two objects of the Dog class. 
+
+
+public class Main {
+    public static void main(String[] args) {
+       Dog brave = new dog();
+       Dog sheriff = new dog();
+    }
+}
+
+Next we will define their state and behaviours. 
+
+public class Main {
+
+    public static void main(String[] args) {
+       /*
+       Creating objects
+        */
+       Dog brave = new dog();
+       Dog sheriff = new dog();
+
+       /*
+       Defining brave dog
+        */
+       brave.name = "Brave";
+       brave.age = 3;
+       brave.breed = "Russian Shepherd";
+       brave.color = "Black";
+
+       brave.bark();
+
+       /*
+       Defining dog sheriff
+        */
+       sheriff.name = "Sheriff";
+       sheriff.age = 1;
+       sheriff.breed = "Golden Retriever";
+       sheriff.color = "Gold";
+
+       sheriff.play();
+    }
+
+}
+
+From the example above, we were able to define our class, create an instances of the class (create objects) and specify the states and behaviors of those objects. 
+
+Objects and classes are closely related. Both classes and objects are collections of variables and methods. 
+
+
+Eck, D. J. (2019). Introduction to programming using Java, version 8.1. Hobart and William Smith Colleges. http://math.hws.edu/javanotes/.
+
+

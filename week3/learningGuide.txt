@@ -15,3 +15,4 @@ By the end of this Unit, you will be able to:
     Define and call static methods in Java programs.
     Apply static member variables in Java programs.
 
+Eck, D. J. (2019). Introduction to programming using Java, version 8.1. Hobart and William Smith Colleges. http://math.hws.edu/javanotes/.

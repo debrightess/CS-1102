@@ -1,0 +1,20 @@
+When you're finished, upload the following to the Programming Assignment submission area:
+
+Upload the following for your Programming Assignment submission.
+
+    Quiz.java
+    MultipleChoiceQuestion.java
+    Screenshot showing the input dialog with a new quiz question, not one from the previous assignment
+    Screenshot showing the message dialog for the number of questions and correct answers 
+
+Your assignment will be graded by your peers using the following criteria.  
+
+    Does the submission include a file that defines the class "Quiz"?
+    Does the submission include a file that defines the class "MultipleChoiceQuestion"?
+    Does the class "MultipleChoiceQuestion" have class variables for the number of questions and the number of correct answers and instance variables for the question String and correct-answer String?
+    Does the class "MultipleChoiceQuestion" have a constructor with 7 String parameters that it uses to initialize the instance variables?
+    Does the class "MultipleChoiceQuestion" have a method "ask" that asks the question and returns a valid answer in upper case?
+    Does the class "MultipleChoiceQuestion" have a method "check" that calls "ask" and displays one message for correct answers and a different message for incorrect answers?
+    Does the class "MultipleChoiceQuestion" have a class method "showResults" that displays the number of questions and the number of correct answers using the class member variables?
+    Does the main method in class "Quiz" use the "MultipleChoiceQuestion" constructor to create at least 5 quiz questions?
+    Does the main method in class "Quiz" use a "MultipleChoiceQuestion" object to call the "check" method for each quiz question, and an object or the "MultipleChoiceQuestion" class to call the "showResults" class method?
