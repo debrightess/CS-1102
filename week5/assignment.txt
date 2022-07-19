@@ -1,0 +1,26 @@
+Instructions for submission
+
+Download the Unit 5 Programming Assignment
+
+When you're finished, upload the following to the Programming Assignment submission area:
+
+Upload the following for your Programming Assignment submission.
+
+    Question.java
+    TrueFalseQuestion.java
+    MultipleChoiceQuestion.java
+    Quiz.java
+    A screenshot showing a dialog box asking a true/false question 
+
+Your assignment will be graded by your peers using the following criteria. 
+
+    Does the submission include a file that defines the class "Quiz" with a main method?
+    Does the submission include a file that defines the abstract class "Question" with instance method "check", class method "showResults", and abstract method "ask"?
+    Does the submission include a file that defines the class "MultipleChoiceQuestion" as a subclass of "Question" with an implementation of "ask" method?
+    Does the submission include a file that defines the class "TrueFalseQuestion" as a subclass of "Question" with an implementation of the "ask" method?
+    Does the class "TrueFalseQuestion" implement the method "ask" to keep asking its question until it receives an answer of "f", "false", "n", "no", "t", "true", "y", or "yes" in any combination of upper and lower case?
+    Does the class "TrueFalseQuestion" implement the method "ask" to return only "TRUE" or "FALSE"?
+    Does the class "TrueFalseQuestion" have a constructor that initializes the question and correct answer using its parameters, where the correct answer is initialized to only "TRUE" or "FALSE"?
+    Does the main method in class "Quiz" use the "check" method with both "MultipleChoiceQuestion" and "TrueFalseQuestion" objects?
+    Does the main method in class "Quiz" report correct results using the "showResults" method from class "Question"?
+
