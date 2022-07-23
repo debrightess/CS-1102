@@ -1,0 +1,10 @@
+I discovered that there is a "canvas" object in SimplePaint program() that listens to event handlers mousePressed(e), mouseDragged(e), and mouseReleased(), each of which has a MouseEvent "e" parameter by lambda functions. 
+
+There is a Boelean instance variable "dragging" that is used to control, when starting the canvas. 
+
+When I run the application, I get a canvas with seven color palettes on the right and clear option. On init() the canvas is cleared and when I press the mouse button, mousePressed() is triggered and prevX and prevY is set to the positions where I clicked, set the "dragging" value to true and by default the line color is black with a 2 pixel wide line. mousePressed() functions validates whether it's to clear the drawing or set a color based on the color clicked or to start drawing. Once I start dragging "mouseDragged()" is invoked if the "dragging" variable is true it start drawing the line from (prevX, prevY) to current(X,Y) mouse co-ordinates.
+
+It validates whether mouse pointer is within the drawing areas and defaults it to be within the canvas limits. mouseReleased() just resets the "dragging" value to false. When we press the mouse button down a event is created which makes it event oriented programming. The entire lifecycle of a JavaFX application is init(), start() and stop() function when we call launch() in the main entry point of any class. 
+
+References
+Eck, D.J (2019). Introduction to programming using Java, version 8.1, http://math.hws.edu/javanotes  

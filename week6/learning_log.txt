@@ -1,0 +1,20 @@
+This week's learning was a bit tough for me although there was no programming assignment to submit. I think the concept to grasp was a bit involving especially that the number of the questions on the graded quiz required you to fully understand the concept of "Event Handling with Graphical User Interfaces". This week focused on 
+* User-Interface Components: Button, HBox, Scene, Label, etc. 
+* Events: Action Events, Mouse Events, and Key Events.
+* Event Handlers: ActionListener, MouseListener, and KeyCode. 
+
+The learning materials provided for this week's learning was not easy to understand. However, I feel confident that with practice, I will understand the concepts. 
+
+The discussion focussed on Dragging. A drag gesture occurs when the users moves the mouse while looking down one of the buttons on the mouse. The drag gesture starts when the user presses a mouse button, it continues while the mouse is dragged, and it ends when the user releases the button (Eck, 2019).
+
+The execution of the discussion forum program was very satisfying. Even though it was not me who wrote the program. But I was able to execute it and understand it also. 
+
+No graded quiz in this unit gave more time to focus on the graded quiz. I reviewed the previous quizzes and reviewed the reading sections that I estimated necessary for the graded quiz. 
+
+I think the feedbacks that I received for my post on the discussion forumn and the feedbacks given to the other students. I have the feeling that the more I learn new things the more I discover more thing to learn. 
+
+In this unit I learned some event handling basics and how it works with the graphic user interface GUI. I am really gaining a lot of programming knowledge and studying the textbook is really helping although challenging at the same time. I believe with practice and consistency I would become a better Java programmer. 
+
+
+Reference
+Eck, D. J. (2019). Introduction to programming using Java, version 8.1. Hobart and William Smith Colleges. http://math.hws.edu/javanotes/.
