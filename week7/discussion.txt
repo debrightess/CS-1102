@@ -1,0 +1,35 @@
+A wrapper in java is a function intended to call one or more functions. 
+Wrapper classes encloses around a data type and gives it an object appearance, it converts primitive data into object this is very important when you modify arguments passed into method Wrappers classes also converts numeric string into a value. 
+The valueOf() is included in all wrappers except character/Data type. 
+For example Integer is the wrapper class for int, Long is the wrapper class for long.
+
+
+Use of Wrapper in ArrayList: 
+
+In java people defined ArrayList in such a way that it accepts Any class using generics like ArrayList where T must be a class.
+So when we try to defined a Array List with primitive data types (which are not classes), then we get compilation error as the array list is defined only for classes. 
+So here the wrapper classes will be useful, to define list of integers we define like below 
+ArrrayList integers = new ArrayList();
+
+
+Autoboxing:
+
+The process of automatically converting primitive types to the object of their corresponding wrapper classes is known as autoboxing. 
+Autoboxing applies when the value is passed as a parameter to a method that corresponds to a wrapper class.
+
+• When its assigned to a variable of the corresponding wrapper class
+
+int a = 10;
+Integer b = a; // assigning primitive data type a to Wrapper class b
+
+Unboxing: 
+
+The automatic conversion of an object to its corresponding Primitive type is known as unboxing. It is inverse of boxing, and it converts an instance of wrapper class to its corresponding primitive data type. 
+• Unboxing applies when Wrapper class is passed as a parameter to a method of the corresponding primitive type. 
+• And when it assigned variable corresponds to a primitive type
+
+Integer a = new Integer(10);
+int b = a; // assigning wrapper type to primitive
+
+References
+Eck, D.J (2019). Introduction to programming using Java, version 8.1, http://math.hws.edu/javanotes 
